@@ -99,3 +99,14 @@ def test_rejects_maturity_before_effective_date():
     data["maturity_date"] = date(2025, 12, 31)
     with pytest.raises(ValidationError):
         LoanTerms.model_validate(data)
+
+
+def test_effective_date_is_required_for_core_extraction_schema():
+    data = base_loan({
+        "margin_type": "flat",
+        "flat_margin_bps": 225,
+        "pricing_grid": None,
+    })
+    data.pop("effective_date")
+    with pytest.raises(ValidationError):
+        LoanTerms.model_validate(data)

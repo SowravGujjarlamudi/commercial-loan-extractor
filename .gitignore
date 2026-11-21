@@ -17,3 +17,7 @@ env/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Local answer-key data (borrower and loan information)
+data/*.csv
+Hand-Checked Loan Terms Answer Key (20 Agreements).csv

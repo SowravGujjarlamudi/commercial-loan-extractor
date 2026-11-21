@@ -58,6 +58,6 @@ class LoanTerms(StrictModel):
 
     @model_validator(mode="after")
     def maturity_after_effective_date(self):
-        if self.maturity_date <= self.effective_date:
+        if self.effective_date is not None and self.maturity_date <= self.effective_date:
             raise ValueError("Maturity date must be after effective date")
         return self

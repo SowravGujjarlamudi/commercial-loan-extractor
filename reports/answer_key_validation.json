@@ -1,0 +1,205 @@
+{
+  "source_file": "answer_key.csv",
+  "expected_records": 20,
+  "total_records_found": 20,
+  "records_validated": 20,
+  "records_failed": 0,
+  "record_count_matches_expected": true,
+  "all_records_valid": true,
+  "flat_margin_records": 6,
+  "pricing_grid_records": 14,
+  "missing_max_leverage_ratio": 2,
+  "missing_min_interest_coverage_ratio": 2,
+  "duplicate_agreement_ids": [],
+  "effective_date_column_present": false,
+  "records_with_effective_date": 0,
+  "date_rule_limitation": "The source answer key does not provide effective_date for every record; maturity-after-effective-date cannot be evaluated for those records.",
+  "rows": [
+    {
+      "row_number": 2,
+      "agreement_id": "AGR-2026-001",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 4,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 3,
+      "agreement_id": "AGR-2026-004",
+      "status": "VALID",
+      "margin_type": "flat",
+      "pricing_tier_count": 0,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 4,
+      "agreement_id": "AGR-2026-006",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 4,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 5,
+      "agreement_id": "AGR-2026-008",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 3,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 6,
+      "agreement_id": "AGR-2026-009",
+      "status": "VALID",
+      "margin_type": "flat",
+      "pricing_tier_count": 0,
+      "missing_covenants": [
+        "max_leverage_ratio",
+        "min_interest_coverage_ratio"
+      ],
+      "errors": []
+    },
+    {
+      "row_number": 7,
+      "agreement_id": "AGR-2026-012",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 3,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 8,
+      "agreement_id": "AGR-2026-014",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 5,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 9,
+      "agreement_id": "AGR-2026-015",
+      "status": "VALID",
+      "margin_type": "flat",
+      "pricing_tier_count": 0,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 10,
+      "agreement_id": "AGR-2026-017",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 3,
+      "missing_covenants": [
+        "max_leverage_ratio",
+        "min_interest_coverage_ratio"
+      ],
+      "errors": []
+    },
+    {
+      "row_number": 11,
+      "agreement_id": "AGR-2026-019",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 4,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 12,
+      "agreement_id": "AGR-2026-021",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 4,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 13,
+      "agreement_id": "AGR-2026-023",
+      "status": "VALID",
+      "margin_type": "flat",
+      "pricing_tier_count": 0,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 14,
+      "agreement_id": "AGR-2026-025",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 4,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 15,
+      "agreement_id": "AGR-2026-028",
+      "status": "VALID",
+      "margin_type": "flat",
+      "pricing_tier_count": 0,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 16,
+      "agreement_id": "AGR-2026-030",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 3,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 17,
+      "agreement_id": "AGR-2026-031",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 4,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 18,
+      "agreement_id": "AGR-2026-034",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 4,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 19,
+      "agreement_id": "AGR-2026-036",
+      "status": "VALID",
+      "margin_type": "flat",
+      "pricing_tier_count": 0,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 20,
+      "agreement_id": "AGR-2026-038",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 3,
+      "missing_covenants": [],
+      "errors": []
+    },
+    {
+      "row_number": 21,
+      "agreement_id": "AGR-2026-040",
+      "status": "VALID",
+      "margin_type": "grid",
+      "pricing_tier_count": 3,
+      "missing_covenants": [],
+      "errors": []
+    }
+  ]
+}
